@@ -22,6 +22,18 @@ html, body {
   height: 100%;
   overflow-x: hidden; 
 }
+.container {
+  width: 100%;
+  max-width: 1200px;  /* For desktops, limit the container width */
+  margin: 0 auto;     /* Center container on larger screens */
+  padding: 0 15px;    /* Ensure padding on mobile devices */
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 :root {
   --bs-blue: #0d6efd;
