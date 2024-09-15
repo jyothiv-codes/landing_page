@@ -11380,3 +11380,36 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.projects-section {
+    padding: 2rem 0;
+}
+
+.software-container, .ml-container {
+    margin-bottom: 2rem;
+}
+
+.sw-project-container, .ml-project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.project-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-text {
+    padding: 1rem;
+}
+
+.project-links a {
+    margin: 0.25rem;
+}
